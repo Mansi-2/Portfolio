@@ -4,52 +4,12 @@ import { Award, ShieldCheck, Zap, Star, ExternalLink } from 'lucide-react';
 const certifications = [
   {
     title: "Data analytics essentials",
-    description: "Mastered core Data analytics",
+    description: "Gained a foundational understanding of the data analytics lifecycle including data collection, preparation, analysis, and visualization.",
     icon: <Award className="text-purple-400" />,
     issuer: "Cisco",
-    link: "https://drive.google.com/file/d/12LL5X1XFkZa-KYVsoCFUJZ7zyR9aB1wr/view?usp=sharing",
-    summary: "Foundational mastery data analysis."
+    link: "https://www.credly.com/badges/8b250bfe-6244-4113-8d3e-d3c6e891cf62/linked_in_profile",
+    summary: "Built core data analytics skills and practical exposure to industry tools for extracting insights from data."
   },
-  {
-    title: "GenAI Infosys Springboard",
-    description: "Advanced specialization in enterprise-level Generative AI implementation. Focused on RAG (Retrieval-Augmented Generation) and model fine-tuning strategies.",
-    icon: <Zap className="text-blue-400" />,
-    issuer: "Infosys Springboard",
-    link: "https://drive.google.com/file/d/1FGNt8vyrA4aseMvbjoMUGsXYuAgrszPy/view?usp=sharing",
-    summary: "Enterprise AI deployment and optimization specialist."
-  },
-  {
-    title: "Google Data Analyst Professional Certificate",
-    description: "Rigorous 8-course program covering the full data lifecycle. Expertise in SQL, R, and Tableau for complex business intelligence reporting.",
-    icon: <ShieldCheck className="text-blue-400" />,
-    issuer: "Google",
-    link: "#",
-    summary: "Industry-standard certification in end-to-end data analytics."
-  },
-  {
-    title: "5 Days of Intensive AI Agents",
-    description: "Hands-on lab focusing on autonomous agent design. Built multi-agent systems for complex task decomposition and execution using Python.",
-    icon: <Zap className="text-yellow-400" />,
-    issuer: "Kaggle & Google",
-    link: "https://drive.google.com/file/d/1NmhjV9PXbdtnp09OdMNtMaizlODUNfke/view?usp=sharing",
-    summary: "Practical expertise in autonomous AI agent orchestration."
-  },
-  {
-    title: "Excel Infosys Springboard",
-    description: "Advanced certification in data modeling and statistical analysis using Excel. Expert in complex DAX-like formulas and automated reporting.",
-    icon: <Award className="text-emerald-400" />,
-    issuer: "Infosys Springboard",
-    link: "https://drive.google.com/file/d/1C0E6VwPqfuZyaZkVkLYWOFI5JvfWJ48R/view?usp=sharing",
-    summary: "Advanced data manipulation and modeling specialist."
-  },
-  {
-    title: "Freedom of AI - AI Masterclass",
-    description: "Deep dive into the latest AI trends and implementation strategies. Focused on bridging the gap between research and commercial AI products.",
-    icon: <Star className="text-orange-400" />,
-    issuer: "Freedom of AI",
-    link: "https://drive.google.com/file/d/1-0og7KJTOzSJeSR6zaWQwypVVCQjOU19/view?usp=sharing",
-    summary: "Strategic AI implementation and product thinking."
-  }
 ];
 
 const Certifications: React.FC = () => {
@@ -95,7 +55,7 @@ const Certifications: React.FC = () => {
         </div>
 
         <div className="flex justify-center">
-          <a 
+          {/* <a 
             href="https://drive.google.com/drive/folders/1-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -103,7 +63,7 @@ const Certifications: React.FC = () => {
           >
             View All Certifications
             <ExternalLink size={20} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

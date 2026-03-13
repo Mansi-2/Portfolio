@@ -24,13 +24,13 @@ const achievements = [
     label: "End-to-End Systems",
     icon: <Star className="text-yellow-400" />
   },
-  {
-    title: "Internships",
-    value: 6,
-    suffix: "",
-    label: "Real-world Experience",
-    icon: <Award className="text-blue-400" />
-  },
+  // {
+  //   title: "Internships",
+  //   value: 6,
+  //   suffix: "",
+  //   label: "Real-world Experience",
+  //   icon: <Award className="text-blue-400" />
+  // },
   {
     title: "HackerRank",
     value: 5,

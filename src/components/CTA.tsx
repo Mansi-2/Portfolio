@@ -44,7 +44,7 @@ const CTA: React.FC<CTAProps> = ({
             {showSocials && (
               <div className="flex items-center gap-3 ml-2">
                 <a 
-                  href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305/" 
+                  href="https://www.linkedin.com/in/mansi-shukla-7b6054295/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent hover:border-accent/50 transition-all"
@@ -52,7 +52,7 @@ const CTA: React.FC<CTAProps> = ({
                   <Linkedin size={18} />
                 </a>
                 <a 
-                  href="https://github.com/Mokshitsharma" 
+                  href="https://github.com/Mansi-2" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent hover:border-accent/50 transition-all"

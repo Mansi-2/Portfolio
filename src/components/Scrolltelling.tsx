@@ -19,19 +19,20 @@ const Scrolltelling: React.FC = () => {
     {
       chapter: "02",
       title: "The Data Revelation",
-      description: "During my Dual Degree (B.Tech + M.Tech) at DAVV, I encountered the world of Data Science. It was a revelation: the idea that hidden patterns in raw data could predict the future. I didn't just want to use tools; I wanted to understand the mathematics behind them. This drive pushed me to master statistics and linear algebra, turning abstract numbers into actionable intelligence.",
+      description: "During my Integrated Degree (B.Tech + M.Tech) at DAVV, I encountered the world of Data Science. It was a revelation: the idea that hidden patterns in raw data could predict the future. I didn't just want to use tools; I wanted to understand the mathematics behind them. This drive pushed me to master statistics and linear algebra, turning abstract numbers into actionable intelligence.",
       period: "Academic Rigor",
       icon: "📊",
       quote: "In God we trust, all others must bring data."
     },
     {
       chapter: "03",
-      title: "The Crucible of Internships",
-      description: "Theory met reality during my internships. At Evoastra Ventures and Cognifyz, I wasn't just building models; I was solving business pain points. I learned that an 87% accuracy rate means nothing if the system isn't scalable or interpretable. These experiences taught me the 'Engineering' in AI Engineering—the art of building robust, production-ready pipelines.",
-      period: "Real-world Impact",
-      icon: "🚀",
-      quote: "Experience is the name everyone gives to their mistakes."
-    },
+      title: "The Arena of Projects & Hackathons",
+      description: "My learning truly accelerated when I began building real AI systems and competing in hackathons. From developing fraud detection dashboards and productivity intelligence tools to designing AI solutions like RuralRise, I moved beyond theoretical models into practical problem-solving. These experiences taught me that success in AI is not just about accuracy — it is about usability, scalability, and creating meaningful impact through intelligent systems.",
+      period: "Building & Competing",
+      icon: "⚡",
+      quote: "Ideas are cheap. Execution is where reality begins."
+},
+
     {
       chapter: "04",
       title: "Vision: The AI Architect",

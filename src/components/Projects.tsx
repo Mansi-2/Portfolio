@@ -1,63 +1,45 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Github, ExternalLink, Code2, Database, TrendingUp, UserCheck, ArrowRight, Smile, ShieldCheck } from 'lucide-react';
+import { Github, ExternalLink,BarChart3,CloudSun,Brain,  ArrowRight, ShieldCheck } from 'lucide-react';
 import gsap from 'gsap';
 
 const projects = [
-  {
-    title: "Sensei AI Trading System",
-    problem: "Traditional trading analysis lacks real-time tactical depth and reinforcement learning-based decision support.",
-    stack: ["Python", "Streamlit", "LSTM", "PPO"],
-    metrics: "82% Prediction Accuracy",
-    github: "https://github.com/Mokshitsharma/Sensei",
-    demo: "#",
-    icon: <TrendingUp className="text-accent" />
-  },
-  {
-    title: "MoodMate Emotion Detection",
-    problem: "Detecting human emotions in real-time for interactive AI applications and mental health monitoring.",
-    stack: ["Python", "Streamlit", "OpenCV", "Deep Learning"],
-    metrics: "Real-time Processing",
-    github: "https://github.com/Mokshitsharma/MoodMate",
-    demo: "#",
-    icon: <Smile className="text-accent" />
-  },
-  {
-    title: "Finsight Stock Analyzer",
-    problem: "Retail investors need accessible, real-time data visualization and event impact analysis to understand market volatility.",
-    stack: ["Python", "Streamlit", "Plotly", "Yahoo Finance API"],
-    metrics: "Event-Driven Insights",
-    github: "https://github.com/Mokshitsharma/Finsight_Smart_Stock_Event_Impact_Analyzer",
-    demo: "#",
-    icon: <Database className="text-accent" />
-  },
-  {
-    title: "Customer Churn Prediction",
-    problem: "Businesses lose significant revenue due to customer churn and lack predictive tools to identify at-risk customers.",
-    stack: ["Python", "Pandas", "Scikit-learn", "Jupyter"],
-    metrics: "91% Precision Rate",
-    github: "https://github.com/Mokshitsharma/Customer-Churn-Prediction",
-    demo: "#",
-    icon: <TrendingUp className="text-accent" />
-  },
-  {
-    title: "Credit Card Fraud Detection",
-    problem: "Financial institutions lose billions to fraud; real-time detection is critical for security.",
-    stack: ["Python", "Scikit-learn", "Anomaly Detection"],
-    metrics: "99.8% Detection Rate",
-    github: "https://github.com/Mokshitsharma/Credit-Card-fraud-detection",
-    demo: "#",
-    icon: <ShieldCheck className="text-accent" />
-  },
-  {
-    title: "Zomato SQL Analysis",
-    problem: "Extracting meaningful business insights from large-scale restaurant databases for market analysis.",
-    stack: ["SQL", "Power BI", "Data Viz"],
-    metrics: "Business Intelligence",
-    github: "https://github.com/Mokshitsharma/Zomato-SQL-EDA-Visualization",
-    demo: "#",
-    icon: <Database className="text-accent" />
-  }
+{
+  title: "FraudRadar Financial Fraud Detection",
+  problem: "Financial systems struggle with identifying suspicious transactions early and explaining model decisions to analysts.",
+  stack: ["Python", "Streamlit", "Scikit-learn", "SHAP"],
+  metrics: "Explainable Real-time Fraud Insights",
+  github: "https://github.com/Mansi-2/FraudRadar",
+  demo: "#",
+  icon: <ShieldCheck className="text-accent" />
+},
+{
+  title: "BehaviorIQ Productivity Intelligence Dashboard",
+  problem: "Organizations lack visibility into behavioral productivity patterns hidden inside large usage event datasets.",
+  stack: ["Python", "Machine Learning", "Data Analytics", "Dashboarding"],
+  metrics: "Session Pattern & Productivity Analysis",
+  github: "https://github.com/Mansi-2/BehaviorIQ",
+  demo: "#",
+  icon: <BarChart3 className="text-accent" />
+},
+{
+  title: "Micro-Climate Analyzer",
+  problem: "Local environmental variations are difficult to monitor and analyze due to fragmented weather data pipelines.",
+  stack: ["Python", "Data Processing", "Visualization", "Anomaly Detection"],
+  metrics: "Automated Climate Trend Detection",
+  github: "https://github.com/Mansi-2/Micro-Climate-Analyzer",
+  demo: "https://micro-climate-analyzer-omd8ncg4npy4ib7euakbh6.streamlit.app/",
+  icon: <CloudSun className="text-accent" />
+},
+{
+  title: "ML Exploratory Analysis Suite",
+  problem: "Beginners and analysts need structured exploratory workflows to understand diverse real-world datasets.",
+  stack: ["Python", "Pandas", "EDA", "Jupyter"],
+  metrics: "Multi-Dataset Insight Generation",
+  github: "https://github.com/Mansi-2/ML_Tutorials",
+  demo: "#",
+  icon: <Brain className="text-accent" />
+}
 ];
 
 const ProjectCard: React.FC<{ project: typeof projects[0] }> = ({ project }) => {
@@ -156,7 +138,7 @@ const Projects: React.FC = () => {
             <h2 className="text-4xl md:text-6xl font-bold mb-4">Featured <span className="text-gradient">Projects</span></h2>
             <p className="text-slate-400 max-w-xl">A selection of my work in AI, Machine Learning, and Data Science, focused on solving complex problems with elegant code.</p>
           </div>
-          <a href="https://github.com/Mokshitsharma" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline flex items-center gap-2 font-medium">
+          <a href="https://github.com/Mansi-2" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline flex items-center gap-2 font-medium">
             View all on GitHub <ExternalLink size={16} />
           </a>
         </div>
@@ -168,10 +150,10 @@ const Projects: React.FC = () => {
         </div>
 
         <div className="flex justify-center">
-          <Link to="/projects" className="glow-button flex items-center gap-2 group">
+          {/* <Link to="/projects" className="glow-button flex items-center gap-2 group">
             Explore All Projects
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

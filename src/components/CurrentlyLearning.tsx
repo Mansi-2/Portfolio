@@ -1,26 +1,26 @@
 import React from 'react';
-import { BookOpen, Rocket, ShieldCheck, Database, LayoutGrid } from 'lucide-react';
+import { BookOpen, Cpu, Network, Database, MessagesSquare } from 'lucide-react';
 
 const CurrentlyLearning: React.FC = () => {
   const topics = [
     {
-      title: "Advanced Recommendation Systems",
-      description: "Collaborative filtering, deep learning for recommendations, and cold-start problem optimization.",
-      icon: <LayoutGrid className="text-accent" />
+      title: "Deep Learning & Neural Network Optimization",
+      description: "Exploring CNNs, RNNs, transformers, and techniques like regularization, tuning, and architecture design.",
+      icon: <Cpu className="text-accent" />
     },
     {
-      title: "Model Explainability (SHAP, LIME)",
-      description: "Techniques for interpreting complex black-box models to build trust and ensure ethical AI.",
-      icon: <ShieldCheck className="text-accent" />
+      title: "System Design for AI Applications",
+      description: "Designing scalable pipelines for real-time data processing, model inference, and cloud-based AI systems.",
+      icon: <Network className="text-accent" />
     },
     {
-      title: "MLOps & Deployment Pipelines",
-      description: "Automating the ML lifecycle with CI/CD, model monitoring, and versioning for scalable systems.",
-      icon: <Rocket className="text-accent" />
+      title: "Advanced NLP & LLM Applications",
+      description: "Building intelligent systems using text classification, summarization pipelines, embeddings, and prompt engineering.",
+      icon: <MessagesSquare className="text-accent" />
     },
     {
-      title: "Scalable ML System Design",
-      description: "Architecting high-performance systems for real-time inference and large-scale data processing.",
+      title: "Data Engineering for AI",
+      description: "Learning data pipeline creation, ETL workflows, database optimization, and handling large-scale datasets.",
       icon: <Database className="text-accent" />
     }
   ];
