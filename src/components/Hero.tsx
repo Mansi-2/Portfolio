@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
   
   // Role Typing Effect
   const [roleText, setRoleText] = useState('');
-  const roles = ['Machine Learning Engineer', 'AI Systems Architect', 'Data Science Specialist'];
+  const roles = ['Machine Learning Engineer', 'Applied Data Analyst', 'Data Science Specialist'];
   const [roleIndex, setRoleIndex] = useState(0);
   const [isRoleDeleting, setIsRoleDeleting] = useState(false);
 
@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl md:text-8xl font-bold mb-4 leading-tight">
-          Hi, I’m <span className="text-gradient">Mokshit Sharma</span>
+          Hi, I’m <span className="text-gradient">Mansi Shukla</span>
         </h1>
         
         <div className="text-2xl md:text-4xl text-accent font-display mb-8 h-10 md:h-12">

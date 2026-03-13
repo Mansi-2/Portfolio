@@ -3,12 +3,12 @@ import { Award, ShieldCheck, Zap, Star, ExternalLink } from 'lucide-react';
 
 const certifications = [
   {
-    title: "Skillsoft GenAI Foundation",
-    description: "Mastered core Generative AI concepts, transformer architectures, and prompt engineering. Applied knowledge to build practical AI-driven automation workflows.",
+    title: "Data analytics essentials",
+    description: "Mastered core Data analytics",
     icon: <Award className="text-purple-400" />,
-    issuer: "Skillsoft",
+    issuer: "Cisco",
     link: "https://drive.google.com/file/d/12LL5X1XFkZa-KYVsoCFUJZ7zyR9aB1wr/view?usp=sharing",
-    summary: "Foundational mastery of LLMs and generative architectures."
+    summary: "Foundational mastery data analysis."
   },
   {
     title: "GenAI Infosys Springboard",

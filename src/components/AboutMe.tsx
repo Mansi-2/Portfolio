@@ -18,7 +18,7 @@ const AboutMe: React.FC = () => {
               </p>
               <div className="space-y-6 text-slate-300 text-lg md:text-xl leading-relaxed">
                 <p>
-                  My name is <span className="text-white font-medium text-glow">Mokshit Sharma</span>, and I specialize in <span className="text-accent font-medium">AI & Data Science Engineering</span>. I am driven by the challenge of translating raw, chaotic data into structured, intelligent narratives that drive measurable impact.
+                  My name is <span className="text-white font-medium text-glow">Mansi Shukla</span>, and I specialize in <span className="text-accent font-medium">AI & Data Science Engineering</span>. I am driven by the challenge of translating raw, chaotic data into structured, intelligent narratives that drive measurable impact.
                 </p>
                 <p>
                   I focus on building <span className="text-white font-medium">end-to-end ML systems</span>—from data collection and rigorous experimentation to deployment and monitoring. My approach is rooted in a strong evaluation mindset, ensuring that every model I build is as robust and interpretable as it is accurate.

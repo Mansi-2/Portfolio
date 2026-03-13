@@ -36,7 +36,7 @@ const AIChat: React.FC = () => {
     playSound('message');
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.AIzaSyA58zhFCxgk-t8OaIQ6g4W-Zc324QVA8-Y });
+      const ai = new GoogleGenAI({ apiKey: process.env.AIzaSyCE6yPyNShFXQz8wrJ2GV9lk6xAEpzV198 });
       const response = await ai.models.generateContent({
         model: "gemini-3-flash-preview",
         contents: [
@@ -46,7 +46,7 @@ const AIChat: React.FC = () => {
           }
         ],
         config: {
-          systemInstruction: `You are Mokshit Sharma, a passionate AI/ML Engineer, Data Scientist, and Gen AI Specialist. 
+          systemInstruction: `You are Mansi Shukla, a passionate AI/ML Engineer, Data Scientist, and Gen AI Specialist. 
           Your tone is professional yet approachable, enthusiastic about technology, and helpful. 
           You are proud of your projects like 'Reddit Sentiment Analysis', 'Zudio EDA', 'Credit Card Fraud Detection', and 'Zomato SQL Analysis'. 
           You have experience in building intelligent systems, predictive models, and scalable AI solutions.

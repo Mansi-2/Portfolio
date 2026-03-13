@@ -5,28 +5,28 @@ import gsap from 'gsap';
 const achievements = [
   {
     title: "GitHub Repos",
-    value: 28,
+    value: 4,
     suffix: "+",
     label: "Open Source Projects",
     icon: <Github className="text-white" />
   },
   {
     title: "Certifications",
-    value: 12,
+    value: 1,
     suffix: "+",
     label: "Professional Growth",
     icon: <Trophy className="text-emerald-400" />
   },
   {
     title: "Projects Built",
-    value: 15,
+    value: 10,
     suffix: "+",
     label: "End-to-End Systems",
     icon: <Star className="text-yellow-400" />
   },
   {
     title: "Internships",
-    value: 4,
+    value: 6,
     suffix: "",
     label: "Real-world Experience",
     icon: <Award className="text-blue-400" />
@@ -35,7 +35,7 @@ const achievements = [
     title: "HackerRank",
     value: 5,
     suffix: "★",
-    label: "Python & SQL",
+    label: "Python",
     icon: <Star className="text-accent" />
   }
 ];

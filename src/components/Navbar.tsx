@@ -63,10 +63,10 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <a href="https://github.com/Mokshitsharma" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
+          <a href="https://github.com/Mansi-2" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
             <Github size={20} />
           </a>
-          <a href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
+          <a href="https://www.linkedin.com/in/mansi-shukla-7b6054295/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
             <Linkedin size={20} />
           </a>
         </div>
@@ -102,10 +102,10 @@ const Navbar: React.FC = () => {
           </a>
         ))}
         <div className="flex gap-6 mt-8">
-          <a href="https://github.com/Mokshitsharma" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
+          <a href="https://github.com/Mansi-2" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
             <Github size={32} />
           </a>
-          <a href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
+          <a href="https://www.linkedin.com/in/mansi-shukla-7b6054295/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-accent transition-colors">
             <Linkedin size={32} />
           </a>
         </div>

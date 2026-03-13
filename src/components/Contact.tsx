@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs font-mono text-[var(--text-secondary)] uppercase tracking-widest mb-1">Email Me</p>
-                    <a href="mailto:sharman48520@gmail.com" className="text-lg font-medium hover:text-accent transition-colors text-[var(--text-primary)]">sharman48520@gmail.com</a>
+                    <a href="mailto:mansishukla1509" className="text-lg font-medium hover:text-accent transition-colors text-[var(--text-primary)]">mansishukla1509@gmail.com</a>
                   </div>
                 </div>
 
@@ -35,10 +35,10 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <a href="https://github.com/Mokshitsharma" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-primary)] flex items-center justify-center text-[var(--text-secondary)] hover:text-accent hover:border-accent/50 transition-all">
+                  <a href="https://github.com/Mansi-2" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-primary)] flex items-center justify-center text-[var(--text-secondary)] hover:text-accent hover:border-accent/50 transition-all">
                     <Github size={24} />
                   </a>
-                  <a href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-primary)] flex items-center justify-center text-[var(--text-secondary)] hover:text-accent hover:border-accent/50 transition-all">
+                  <a href="https://www.linkedin.com/in/mansi-shukla-7b6054295/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-primary)] flex items-center justify-center text-[var(--text-secondary)] hover:text-accent hover:border-accent/50 transition-all">
                     <Linkedin size={24} />
                   </a>
                 </div>

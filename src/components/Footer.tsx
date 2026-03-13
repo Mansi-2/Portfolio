@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="text-[var(--text-secondary)] text-sm font-mono">
-            © {new Date().getFullYear()} Mokshit Sharma. All rights reserved.
+            © {new Date().getFullYear()} Mansi Shukla. All rights reserved.
           </div>
         </div>
       </div>
