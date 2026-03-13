@@ -9,7 +9,7 @@ const WhyWorkWithMe: React.FC = () => {
       icon: <Brain className="text-accent" />
     },
     {
-      title: "Business-Focused Analytics Thinking",
+      title: "Analytics Thinking",
       description: "Translating complex data patterns into actionable business intelligence and measurable ROI for stakeholders.",
       icon: <BarChart3 className="text-accent" />
     },
