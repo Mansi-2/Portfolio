@@ -37,7 +37,7 @@ const achievements = [
     suffix: "★",
     label: "Python",
     icon: <Star className="text-accent" />
-  }
+  },
 ];
 
 const Counter: React.FC<{ value: number; suffix: string }> = ({ value, suffix }) => {
