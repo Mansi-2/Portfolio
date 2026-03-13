@@ -101,7 +101,7 @@ const AIChat: React.FC = () => {
                   <Bot size={20} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-sm text-[var(--text-primary)]">Mokshit's AI Twin</h4>
+                  <h4 className="font-bold text-sm text-[var(--text-primary)]">Mansi's AI Twin</h4>
                   <div className="flex items-center gap-1">
                     <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
                     <span className="text-[10px] text-[var(--text-secondary)] uppercase tracking-widest">Online</span>
