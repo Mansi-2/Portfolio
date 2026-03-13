@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import CTA from './components/CTA';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import WhyWorkWithMe from './components/WhyWorkWithMe';
 import CurrentlyLearning from './components/CurrentlyLearning';
@@ -16,7 +15,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AIChat from './components/AIChat';
 import ProjectsDetail from './pages/ProjectsDetail';
-import InternshipsDetail from './pages/InternshipsDetail';
 import SkillsDetail from './pages/SkillsDetail';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -68,7 +66,6 @@ const Home = () => {
       <WhyWorkWithMe />
       <Scrolltelling />
       <Projects />
-      <Experience />
       <Skills />
       <Certifications />
       <CurrentlyLearning />
@@ -94,7 +91,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectsDetail />} />
-          <Route path="/internships" element={<InternshipsDetail />} />
           <Route path="/skills" element={<SkillsDetail />} />
         </Routes>
       </main>

@@ -15,7 +15,7 @@ const skillCategories = [
       },
       {
         name: "Libraries & Frameworks",
-        skills: ["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch"]
+        skills: ["Python", "NumPy", "Pandas", "Scikit-learn"]
       },
       {
         name: "Special Areas",
@@ -38,7 +38,7 @@ const skillCategories = [
       },
       {
         name: "Visualization",
-        skills: ["Matplotlib", "Seaborn", "Power BI", "Tableau"]
+        skills: ["Matplotlib", "Seaborn"]
       }
     ]
   },
@@ -49,23 +49,12 @@ const skillCategories = [
     subCategories: [
       {
         name: "Development",
-        skills: ["Object-Oriented Programming (OOPS)", "API Integration (Reddit, Yahoo Finance)", "Script Automation", "Backend logic development", "File handling & JSON processing"]
+        skills: ["Object-Oriented Programming (OOPS)", "API Integration", "Backend logic development", "File handling"]
       }
     ]
   },
   {
     id: 4,
-    title: "Web & ML Application Developer",
-    icon: <Globe className="text-accent" />,
-    subCategories: [
-      {
-        name: "Web Technologies",
-        skills: ["Flask (Backend)", "HTML5", "CSS3", "JavaScript", "REST API Integration", "Deployment fundamentals", "Basic frontend structuring"]
-      }
-    ]
-  },
-  {
-    id: 5,
     title: "AI Systems Builder",
     icon: <Zap className="text-accent" />,
     description: "Your Strongest Positioning",
@@ -77,46 +66,46 @@ const skillCategories = [
     ]
   },
   {
-    id: 6,
+    id: 5,
     title: "Computer Science Foundations",
     icon: <Cpu className="text-accent" />,
     subCategories: [
       {
         name: "Core CS",
-        skills: ["Data Structures & Algorithms", "DBMS", "Operating Systems", "OOPS", "Prompt Engineering"]
+        skills: ["Data Structures & Algorithms", "DBMS", "Operating Systems", "OOPS"]
       }
     ]
   },
   {
-    id: 7,
+    id: 6,
     title: "Cloud & Platforms",
     icon: <Cloud className="text-accent" />,
     subCategories: [
       {
         name: "Cloud Skills",
-        skills: ["Google Cloud Arcade (Advanced Milestone)", "Cloud Skills Boost", "Basic cloud deployment exposure"]
+        skills: ["Google Cloud Arcade ", "Cloud Skills Boost", "Basic cloud deployment exposure"]
       }
     ]
   },
   {
-    id: 8,
+    id: 7,
     title: "Design & Presentation",
     icon: <Palette className="text-accent" />,
     subCategories: [
       {
         name: "Creative Tools",
-        skills: ["Canva", "Figma", "Photoshop", "Technical presentation design", "Visual storytelling"]
+        skills: ["Canva", "Technical presentation design", "Visual storytelling"]
       }
     ]
   },
   {
-    id: 9,
+    id: 8,
     title: "Competitive Programming & Practice",
     icon: <Trophy className="text-accent" />,
     subCategories: [
       {
         name: "Achievements",
-        skills: ["HackerRank 5⭐ (C++, SQL, Python)", "LeetCode problem solving"]
+        skills: ["HackerRank 5⭐ (Python)", "LeetCode problem solving"]
       }
     ]
   }

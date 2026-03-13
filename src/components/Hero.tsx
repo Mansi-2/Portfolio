@@ -171,7 +171,7 @@ const Hero: React.FC = () => {
             <ExternalLink size={18} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           </a>
           <a 
-            href="https://drive.google.com/file/d/1yqCt5a-2A4DEu9QJvIy_9b_KF6yR4xqt/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Rm1nyAmcJ5TGs9SAt88KmsfLyJK5FZJC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => playSound('click')}

@@ -32,11 +32,11 @@ const projects = [
   icon: <CloudSun className="text-accent" />
 },
 {
-  title: "ML Exploratory Analysis Suite",
-  problem: "Beginners and analysts need structured exploratory workflows to understand diverse real-world datasets.",
-  stack: ["Python", "Pandas", "EDA", "Jupyter"],
-  metrics: "Multi-Dataset Insight Generation",
-  github: "https://github.com/Mansi-2/ML_Tutorials",
+  title: "Illusion of Randomness: Human Bias Analysis",
+  problem: "Humans often struggle to generate truly random sequences due to cognitive biases like over-alternation and pattern perception.",
+  stack: ["R", "Statistical Analysis", "ggplot2", "Behavioral Data Science"],
+  metrics: "Runs Distribution & Randomness Deviation Insights",
+  github: "https://github.com/Mansi-2/Illusion-of-Randomness",
   demo: "#",
   icon: <Brain className="text-accent" />
 }
@@ -150,10 +150,10 @@ const Projects: React.FC = () => {
         </div>
 
         <div className="flex justify-center">
-          {/* <Link to="/projects" className="glow-button flex items-center gap-2 group">
+          <Link to="/projects" className="glow-button flex items-center gap-2 group">
             Explore All Projects
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </section>

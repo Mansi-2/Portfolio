@@ -1,108 +1,65 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Github, ExternalLink, Code2, Database, TrendingUp, UserCheck, Info, Smile, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, Github, ExternalLink, BarChart3,CloudSun,Brain, Info, ShieldCheck } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const projects = [
-  {
-    id: 'sensei',
-    title: "Sensei AI Trading System",
-    description: "Developed an AI-driven trading intelligence platform that integrates deep learning models (LSTM, TCN) and reinforcement learning (PPO) to generate buy/sell/hold decisions for NIFTY 50 stocks. Designed a modular signal pipeline combining technical indicators, fundamentals, and news sentiment analysis.",
-    problem: "Traditional trading analysis lacks real-time tactical depth and reinforcement learning-based decision support.",
-    stack: ["Python", "Streamlit", "LSTM", "PPO", "NLP"],
-    metrics: "82% Prediction Accuracy",
-    github: "https://github.com/Mokshitsharma/Sensei",
-    demo: "#",
-    icon: <TrendingUp size={32} />
-  },
-  {
-    id: 'moodmate',
-    title: "MoodMate Emotion Detection",
-    description: "Real-time facial emotion detection system built with Streamlit and deep learning. It captures live video feed and classifies emotions into categories like Happy, Sad, Angry, etc., with high precision and low latency.",
-    problem: "Detecting human emotions in real-time for interactive AI applications and mental health monitoring.",
-    stack: ["Python", "Streamlit", "OpenCV", "Deep Learning"],
-    metrics: "Real-time Processing",
-    github: "https://github.com/Mokshitsharma/MoodMate",
-    demo: "#",
-    icon: <Smile size={32} />
-  },
-  {
-    id: 'finsight',
-    title: "Finsight Stock Analyzer",
-    description: "A dark, minimal fintech-style dashboard that connects market events with stock behavior. It evaluates the impact of real-world events on stock performance using event-driven analysis and sentiment-labeled market events.",
-    problem: "Retail investors need accessible, real-time data visualization and event impact analysis to understand market volatility.",
-    stack: ["Python", "Streamlit", "Plotly", "Yahoo Finance API"],
-    metrics: "Event-Driven Insights",
-    github: "https://github.com/Mokshitsharma/Finsight_Smart_Stock_Event_Impact_Analyzer",
-    demo: "#",
-    icon: <Database size={32} />
-  },
-  {
-    id: 'churn',
-    title: "Customer Churn Prediction",
-    description: "Predicting customer retention with AI-driven insights. Built a machine learning pipeline to analyze customer behavior and predict the likelihood of churn, enabling businesses to take proactive retention measures.",
-    problem: "Businesses lose significant revenue due to customer churn and lack predictive tools to identify at-risk customers.",
-    stack: ["Python", "Pandas", "Scikit-learn", "Jupyter"],
-    metrics: "91% Precision Rate",
-    github: "https://github.com/Mokshitsharma/Customer-Churn-Prediction",
-    demo: "#",
-    icon: <TrendingUp size={32} />
-  },
-  {
-    id: 'sentiment',
-    title: "Reddit Sentiment Analysis",
-    description: "Built NLP pipelines using TF-IDF, Logistic Regression, and Naive Bayes to classify 50k+ Reddit posts. Achieved high accuracy in multi-class sentiment prediction for social media insights.",
-    problem: "Analyzing large-scale social media data for sentiment trends and public opinion monitoring.",
-    stack: ["Python", "NLP", "TF-IDF", "Scikit-learn"],
-    metrics: "87% Accuracy",
-    github: "https://github.com/Mokshitsharma/Sentiment_analysis",
-    demo: "#",
-    icon: <Code2 size={32} />
-  },
-  {
-    id: 'zudio',
-    title: "Zudio EDA & Analysis",
-    description: "Comprehensive Exploratory Data Analysis (EDA) on Zudio's retail data. Performed trend analysis, customer segmentation, and sales forecasting to identify growth opportunities.",
-    problem: "Understanding retail sales patterns and customer behavior to optimize inventory and marketing strategies.",
-    stack: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-    metrics: "Data-Driven Insights",
-    github: "https://github.com/Mokshitsharma/Zudio-Data-Analysis-EDA",
-    demo: "#",
-    icon: <Database size={32} />
-  },
-  {
-    id: 'fraud',
-    title: "Credit Card Fraud Detection",
-    description: "Machine learning model to detect fraudulent credit card transactions. Implemented anomaly detection and classification algorithms to identify suspicious patterns in real-time.",
-    problem: "Financial institutions lose billions to fraud; real-time detection is critical for security.",
-    stack: ["Python", "Scikit-learn", "Random Forest", "XGBoost"],
-    metrics: "99.8% Detection Rate",
-    github: "https://github.com/Mokshitsharma/Credit-Card-fraud-detection",
-    demo: "#",
-    icon: <ShieldCheck size={32} />
-  },
-  {
-    id: 'zomato',
-    title: "Zomato SQL Analysis",
-    description: "Deep dive into Zomato's restaurant data using SQL and visualization tools. Analyzed restaurant ratings, cuisines, and pricing trends across different locations.",
-    problem: "Extracting meaningful business insights from large-scale restaurant databases.",
-    stack: ["SQL", "Power BI", "Data Visualization"],
-    metrics: "Business Intelligence",
-    github: "https://github.com/Mokshitsharma/Zomato-SQL-EDA-Visualization",
-    demo: "#",
-    icon: <Database size={32} />
-  },
-  {
-    id: 'house',
-    title: "House Price Regression",
-    description: "Generic tabular regressor for predicting house prices. Implemented advanced feature engineering and ensemble methods to achieve high predictive accuracy.",
-    problem: "Accurately predicting real estate prices based on diverse tabular features.",
-    stack: ["Python", "Regression", "Ensemble Methods"],
-    metrics: "Low RMSE Score",
-    github: "https://github.com/Mokshitsharma/House-Price-Regression-Generic-Tabular-Regressor-",
-    demo: "#",
-    icon: <TrendingUp size={32} />
-  }
+{
+  id: 'behavioriq',
+  title: "BehaviorIQ Productivity Intelligence Dashboard",
+  description: "Behavioral analytics system designed to uncover hidden productivity patterns from user activity datasets using machine learning and visualization.",
+  problem: "Organizations struggle to understand behavioral productivity trends due to scattered event logs and lack of interpretable analytics systems.",
+  stack: ["Python", "Machine Learning", "Pandas", "Data Visualization"],
+  metrics: "Session Pattern Detection & Productivity Insight Generation",
+  github: "https://github.com/Mansi-2/BehaviorIQ",
+  demo: "#",
+  icon: <BarChart3 size={32} />
+},
+{
+  id: 'fraudradar',
+  title: "FraudRadar Financial Fraud Detection",
+  description: "Intelligent fraud detection dashboard that identifies suspicious financial transactions using classification models and explainability techniques.",
+  problem: "Financial institutions require early fraud detection systems that are not only accurate but also interpretable for risk analysts.",
+  stack: ["Python", "Scikit-learn", "Streamlit", "SHAP"],
+  metrics: "Explainable Fraud Prediction & Risk Pattern Identification",
+  github: "https://github.com/Mansi-2/FraudRadar",
+  demo: "#",
+  icon: <ShieldCheck size={32} />
+},
+{
+  id: 'microclimate',
+  title: "Micro-Climate Analyzer",
+  description: "Environmental data analysis system for detecting local climate variations and anomalies using statistical trend analysis and visualization.",
+  problem: "Monitoring localized environmental changes is difficult due to fragmented weather datasets and lack of automated insight generation.",
+  stack: ["Python", "Data Processing", "Statistical Analysis", "Visualization"],
+  metrics: "Climate Trend Detection & Anomaly Insight Reports",
+  github: "https://github.com/Mansi-2/Micro-Climate-Analyzer",
+  demo: "#",
+  icon: <CloudSun size={32} />
+},
+{
+  id: 'mlsuite',
+  title: "ML Exploratory Analysis Suite",
+  description: "Structured machine learning experimentation framework for performing dataset analysis, preprocessing, modeling, and performance comparison.",
+  problem: "Students and analysts often lack standardized workflows to explore datasets and benchmark machine learning models effectively.",
+  stack: ["Python", "Pandas", "Scikit-learn", "Jupyter"],
+  metrics: "Multi-Dataset Model Benchmarking & Insight Generation",
+  github: "https://github.com/Mansi-2/ML_Tutorials",
+  demo: "#",
+  icon: <Brain size={32} />
+},
+  
+{
+  id: 'randomness',
+  title: "Illusion of Randomness Analysis",
+  description: "Behavioral data science project analyzing human bias in generating random binary sequences using statistical runs analysis and visualization techniques.",
+  problem: "Understanding whether humans can generate truly random sequences and how confidence and statistical knowledge influence perceived randomness.",
+  stack: ["R", "Statistical Analysis", "Data Visualization", "Behavioral Analytics"],
+  metrics: "Randomness Deviation Insights & Runs Distribution Patterns",
+  github: "https://github.com/Mansi-2/Illusion-of-Randomness",
+  demo: "#",
+  icon: <Brain size={32} />
+}
 ];
 
 const ProjectsDetail: React.FC = () => {

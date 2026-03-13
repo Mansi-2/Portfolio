@@ -1,29 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Brain, BarChart3, Code2, Globe, Zap, ArrowRight } from 'lucide-react';
+import { Brain, BarChart3, Code2, Globe, Zap, ArrowRight, Database } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const skillGroups = [
   {
     title: "Programming",
     icon: <Code2 className="text-accent" />,
-    skills: ["Python (Advanced)", "SQL", "C++", "R", "JavaScript", "TypeScript"]
+    skills: ["Python (Advanced)", "C++", "R", "C" ]
   },
   {
     title: "Machine Learning / AI",
     icon: <Brain className="text-accent" />,
-    skills: ["Supervised Learning", "Neural Networks", "NLP", "Computer Vision", "Scikit-learn", "TensorFlow", "PyTorch"]
+    skills: ["Supervised Learning", "NLP",  "Scikit-learn"]
   },
   {
     title: "Data Tools",
     icon: <BarChart3 className="text-accent" />,
-    skills: ["Pandas", "NumPy", "Matplotlib", "Power BI", "Tableau", "Excel (Advanced)"]
+    skills: ["Pandas", "NumPy", "Matplotlib", "Excel (Advanced)"]
   },
   {
-    title: "Deployment / Cloud",
-    icon: <Zap className="text-accent" />,
-    skills: ["Docker", "Flask", "FastAPI", "AWS", "Google Cloud", "Git/GitHub"]
-  }
+  title: "Databases",
+  icon: <Database className="text-accent" />,
+  skills: ["SQL", "Redis (NoSQL)", "SQLite"]
+},
 ];
 
 const Skills: React.FC = () => {
