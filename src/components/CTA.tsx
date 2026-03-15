@@ -24,7 +24,7 @@ const CTA: React.FC<CTAProps> = ({
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a 
-              href="https://drive.google.com/file/d/1Rm1nyAmcJ5TGs9SAt88KmsfLyJK5FZJC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DglCWNPL0bG29mW3sjrRNi6pW62FNbh2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => playSound('click')}
